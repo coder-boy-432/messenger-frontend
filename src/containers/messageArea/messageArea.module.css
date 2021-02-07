@@ -1,0 +1,27 @@
+.messageArea {
+    /* width: 70%; */
+    height: 100%;
+    /* border: 2px solid red; */
+    /* background-color: #222629; colour theme 1 */
+
+    /* background-color: rgb(11, 37, 69); */
+    /* background-color: #081921; */
+    background-image: url('https://www.xda-developers.com/files/2019/11/default_wallpaper.jpg');
+    float: left;
+    position: relative;
+}
+
+.messagebox {
+    height: 80%;
+    /* border: 2px solid yellow; */
+    overflow-y: auto;
+}
+
+.WritingArea {
+    height: 10% !important;
+}
+
+.FriendDashBoard {
+    height: 10% !important;
+    min-height: 50px;
+}

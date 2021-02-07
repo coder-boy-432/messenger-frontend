@@ -1,0 +1,33 @@
+.searchItem {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    background-color: #212e36;
+    color: #959b9f;
+}
+
+.Icon {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchItem button{
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 20% !important;
+    min-width: 112px;
+    background-color: #61892F;
+    text-align: center;
+    text-decoration: none;
+    display: inline=block;
+    font-size: 15px;
+    border-radius: 5%;
+    display: block;
+}

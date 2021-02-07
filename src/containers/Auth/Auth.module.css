@@ -1,0 +1,24 @@
+.Auth {
+    margin: 20px auto;
+    margin-top: 0px;
+    width: 80%;
+    text-align: center;
+    /* box-shadow: 0 2px 3px #ccc; */
+    /* border: 1px solid #eee; */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #212e36;
+    /* color: #959b9f; */
+}
+
+.RootDiv {
+    padding-top: 20px;
+    height: 100%;
+    background-image: url('https://www.xda-developers.com/files/2019/11/default_wallpaper.jpg');
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}

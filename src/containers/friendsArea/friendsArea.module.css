@@ -1,0 +1,24 @@
+.friendsArea {
+    /* width: 30%; */
+    height: 100%;
+    float: left;
+    /* background-color: blueviolet; */
+    /* background-color: #6B6E70; colour theme 1 */
+
+    /* background-color: #232d36; */
+    /* background-image: url('https://images.assetsdelivery.com/compings_v2/golubovy/golubovy1710/golubovy171000076.jpg'); */
+    background-image: url('https://www.xda-developers.com/files/2019/11/default_wallpaper.jpg');
+
+    /* border: 2px solid blueviolet; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    overflow-y: hidden;
+    border-right: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+.friendsArea:hover {
+    overflow: auto;
+    border: 0;
+}

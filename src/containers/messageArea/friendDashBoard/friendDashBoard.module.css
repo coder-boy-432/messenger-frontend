@@ -1,0 +1,37 @@
+.friendDashBoard {
+    width: 100%;
+    height: inherit;
+    min-height: 50px;
+    display: flex;
+    top: 0;
+    position: absolute;
+    /* background-color: rgb(19, 64, 116); */
+    background-color: #232d36;
+    color: #a8afb4;
+}
+
+.friendName {
+    /* font-size: 200%; */
+    height: 2rem;
+}
+
+.friendName p {
+    margin: 0;
+    height: 100%;
+    font-size: 1.8rem;
+}
+
+.onlineStatus {
+    height: 2rem;
+}
+
+.Icon {
+    display: inline-flex;
+    width: 63px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon a {
+    color: #a8afb4;
+}

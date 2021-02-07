@@ -1,0 +1,80 @@
+.writingArea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    /* background-color: #6B6E70; */
+    background-color: #232d36;
+}
+
+.writingArea form{
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+
+.writingArea input{
+    margin:  0 5px;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 16px;
+    width:70%;
+    border: none;
+    border-radius: 5px;
+}
+
+.Icon {
+    display: inline-flex;
+    width: 10%;
+    min-width: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icon a{
+    color: #a8afb4;
+}
+
+.noIcon{
+    display: inline-flex;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+}
+
+.inputWrap {
+    /* top: 0;
+    position: absolute; */
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+
+.writingArea button{
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 20% !important;
+    background-color: #054640;
+    color: #a8afb4;
+    text-align: center;
+    text-decoration: none;
+    display: inline=block;
+    font-size: 15px;
+    border-radius: 5%;
+}
+.searchItems {
+    margin-top: 20px;
+    display: block;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.RootDiv {
+    height: 100%;
+    background-image: url('https://www.xda-developers.com/files/2019/11/default_wallpaper.jpg');
+}
